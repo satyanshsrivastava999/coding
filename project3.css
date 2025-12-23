@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url("https://wallpapercave.com/wp/wp5541788.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    text-align: center;
+}
+
+.engine-name {
+    color:lightcoral;
+    font-size: 64px;
+    margin-bottom: 90px;
+    letter-spacing: 5px;
+}
+
+.search-box input {
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
